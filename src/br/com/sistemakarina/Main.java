@@ -3,6 +3,7 @@ package br.com.sistemakarina;
 import br.com.sistemakarina.model.Calculadora;
 import br.com.sistemakarina.model.Emprestimo;
 import br.com.sistemakarina.model.Mensagem;
+import br.com.sistemakarina.model.Quadrilatero;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,6 +27,13 @@ public class Main {
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000,  5);
+
+        // Quadrilatero
+        System.out.println("Exercicio Quadrilatero");
+        Quadrilatero.area(3);
+        Quadrilatero.area(5d,5d);
+        Quadrilatero.area(7,8,9);
+        Quadrilatero.area(5f,5f);
 
     }
 }
