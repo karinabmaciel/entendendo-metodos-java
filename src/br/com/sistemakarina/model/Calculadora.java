@@ -3,9 +3,6 @@ package br.com.sistemakarina.model;
 /**
  * Exercícios da aula Métodos, criar uma aplicação que resolva as seguintes situações:
  * calcular as 4 oprações básicas: soma, subtração, multiplicação e divisão.
- * apartir da hora do dia, informar a mensagem adequada: Bom Dia, Boa Tarde e Boa Noite.
- * Calcular o valor final de um impréstimo, a partir do valor solicitado.Taxas e parcelas influenciam.
- * *Defina arbritrariamente as faixas que influenciam os valores.
  */
 
 public class Calculadora {
